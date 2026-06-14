@@ -1,45 +1,45 @@
 {
   "Algeria": {
-    "win_rate": 0.585,
-    "avg_scored": 2.166,
-    "avg_conceded": 0.741,
-    "elo": 1756.1
+    "win_rate": 0.457,
+    "avg_scored": 1.62,
+    "avg_conceded": 0.75,
+    "elo": 1643.6
   },
   "Argentina": {
-    "win_rate": 0.582,
-    "avg_scored": 1.537,
-    "avg_conceded": 0.585,
-    "elo": 1752.9
+    "win_rate": 0.604,
+    "avg_scored": 1.717,
+    "avg_conceded": 0.711,
+    "elo": 1693.5
   },
   "Australia": {
-    "win_rate": 0.589,
-    "avg_scored": 1.995,
-    "avg_conceded": 0.673,
-    "elo": 1825.1
+    "win_rate": 0.444,
+    "avg_scored": 1.498,
+    "avg_conceded": 1.0,
+    "elo": 1631.4
   },
   "Austria": {
-    "win_rate": 0.526,
-    "avg_scored": 1.748,
-    "avg_conceded": 1.045,
-    "elo": 1653.9
+    "win_rate": 0.308,
+    "avg_scored": 1.25,
+    "avg_conceded": 1.5,
+    "elo": 1536.1
   },
   "Belgium": {
-    "win_rate": 0.67,
-    "avg_scored": 2.517,
-    "avg_conceded": 0.782,
-    "elo": 1678.7
+    "win_rate": 0.556,
+    "avg_scored": 1.537,
+    "avg_conceded": 1.0,
+    "elo": 1552.5
   },
   "Bosnia and Herzegovina": {
-    "win_rate": 0.337,
-    "avg_scored": 1.444,
-    "avg_conceded": 1.244,
-    "elo": 1517.0
+    "win_rate": 0.286,
+    "avg_scored": 2.083,
+    "avg_conceded": 1.5,
+    "elo": 1501.8
   },
   "Brazil": {
-    "win_rate": 0.569,
-    "avg_scored": 1.71,
-    "avg_conceded": 0.641,
-    "elo": 1682.5
+    "win_rate": 0.429,
+    "avg_scored": 1.375,
+    "avg_conceded": 0.722,
+    "elo": 1590.8
   },
   "Cabo Verde": {
     "win_rate": 0.5,
@@ -48,10 +48,10 @@
     "elo": 1500
   },
   "Colombia": {
-    "win_rate": 0.415,
-    "avg_scored": 1.306,
-    "avg_conceded": 0.761,
-    "elo": 1631.1
+    "win_rate": 0.486,
+    "avg_scored": 1.364,
+    "avg_conceded": 0.737,
+    "elo": 1610.1
   },
   "Congo DR": {
     "win_rate": 0.5,
@@ -66,16 +66,16 @@
     "elo": 1500
   },
   "Croatia": {
-    "win_rate": 0.504,
-    "avg_scored": 1.771,
-    "avg_conceded": 0.873,
-    "elo": 1735.8
+    "win_rate": 0.355,
+    "avg_scored": 1.81,
+    "avg_conceded": 1.267,
+    "elo": 1571.5
   },
   "Cura\u00e7ao": {
-    "win_rate": 0.405,
-    "avg_scored": 1.882,
-    "avg_conceded": 0.921,
-    "elo": 1607.0
+    "win_rate": 0.312,
+    "avg_scored": 1.543,
+    "avg_conceded": 1.143,
+    "elo": 1519.0
   },
   "Czechia": {
     "win_rate": 0.5,
@@ -84,70 +84,70 @@
     "elo": 1500
   },
   "Ecuador": {
-    "win_rate": 0.313,
-    "avg_scored": 1.231,
-    "avg_conceded": 0.974,
-    "elo": 1619.4
+    "win_rate": 0.16,
+    "avg_scored": 1.182,
+    "avg_conceded": 1.364,
+    "elo": 1495.1
   },
   "Egypt": {
-    "win_rate": 0.523,
-    "avg_scored": 1.435,
-    "avg_conceded": 0.6,
-    "elo": 1711.6
+    "win_rate": 0.395,
+    "avg_scored": 1.208,
+    "avg_conceded": 0.947,
+    "elo": 1610.1
   },
   "England": {
-    "win_rate": 0.632,
-    "avg_scored": 2.274,
-    "avg_conceded": 0.707,
-    "elo": 1777.0
+    "win_rate": 0.353,
+    "avg_scored": 1.511,
+    "avg_conceded": 1.214,
+    "elo": 1555.0
   },
   "France": {
-    "win_rate": 0.642,
-    "avg_scored": 2.022,
-    "avg_conceded": 0.727,
-    "elo": 1796.0
+    "win_rate": 0.583,
+    "avg_scored": 2.044,
+    "avg_conceded": 0.933,
+    "elo": 1642.3
   },
   "Germany": {
-    "win_rate": 0.613,
-    "avg_scored": 2.469,
-    "avg_conceded": 0.897,
-    "elo": 1722.4
+    "win_rate": 0.593,
+    "avg_scored": 1.979,
+    "avg_conceded": 0.786,
+    "elo": 1603.5
   },
   "Ghana": {
-    "win_rate": 0.418,
-    "avg_scored": 1.466,
-    "avg_conceded": 0.786,
-    "elo": 1611.8
+    "win_rate": 0.262,
+    "avg_scored": 1.292,
+    "avg_conceded": 1.333,
+    "elo": 1511.5
   },
   "Haiti": {
-    "win_rate": 0.5,
-    "avg_scored": 2.126,
-    "avg_conceded": 1.179,
-    "elo": 1672.2
+    "win_rate": 0.524,
+    "avg_scored": 1.947,
+    "avg_conceded": 1.32,
+    "elo": 1598.0
   },
   "Iran": {
-    "win_rate": 0.628,
-    "avg_scored": 2.072,
-    "avg_conceded": 0.545,
-    "elo": 1783.6
+    "win_rate": 0.514,
+    "avg_scored": 1.968,
+    "avg_conceded": 0.789,
+    "elo": 1650.1
   },
   "Iraq": {
-    "win_rate": 0.45,
-    "avg_scored": 1.35,
-    "avg_conceded": 0.95,
-    "elo": 1721.0
+    "win_rate": 0.419,
+    "avg_scored": 1.261,
+    "avg_conceded": 1.1,
+    "elo": 1605.0
   },
   "Japan": {
-    "win_rate": 0.632,
-    "avg_scored": 2.246,
-    "avg_conceded": 0.85,
-    "elo": 1807.6
+    "win_rate": 0.5,
+    "avg_scored": 1.827,
+    "avg_conceded": 1.25,
+    "elo": 1633.6
   },
   "Jordan": {
-    "win_rate": 0.553,
-    "avg_scored": 1.879,
-    "avg_conceded": 0.703,
-    "elo": 1720.8
+    "win_rate": 0.6,
+    "avg_scored": 1.767,
+    "avg_conceded": 1.0,
+    "elo": 1643.6
   },
   "Korea Republic": {
     "win_rate": 0.5,
@@ -156,100 +156,100 @@
     "elo": 1500
   },
   "Morocco": {
-    "win_rate": 0.667,
-    "avg_scored": 1.781,
-    "avg_conceded": 0.286,
-    "elo": 1823.4
+    "win_rate": 0.524,
+    "avg_scored": 1.366,
+    "avg_conceded": 0.455,
+    "elo": 1646.2
   },
   "Netherlands": {
-    "win_rate": 0.579,
-    "avg_scored": 2.25,
-    "avg_conceded": 0.911,
-    "elo": 1723.4
+    "win_rate": 0.5,
+    "avg_scored": 2.339,
+    "avg_conceded": 1.083,
+    "elo": 1573.3
   },
   "New Zealand": {
-    "win_rate": 0.553,
-    "avg_scored": 2.212,
-    "avg_conceded": 0.696,
-    "elo": 1630.6
+    "win_rate": 0.583,
+    "avg_scored": 2.042,
+    "avg_conceded": 0.667,
+    "elo": 1585.5
   },
   "Norway": {
-    "win_rate": 0.512,
-    "avg_scored": 1.902,
-    "avg_conceded": 0.857,
-    "elo": 1676.3
+    "win_rate": 0.2,
+    "avg_scored": 2.0,
+    "avg_conceded": 3.0,
+    "elo": 1500.9
   },
   "Panama": {
-    "win_rate": 0.455,
-    "avg_scored": 1.608,
-    "avg_conceded": 0.904,
-    "elo": 1722.0
+    "win_rate": 0.372,
+    "avg_scored": 1.588,
+    "avg_conceded": 1.316,
+    "elo": 1527.9
   },
   "Paraguay": {
-    "win_rate": 0.25,
-    "avg_scored": 0.932,
-    "avg_conceded": 1.097,
-    "elo": 1568.3
+    "win_rate": 0.143,
+    "avg_scored": 1.342,
+    "avg_conceded": 1.75,
+    "elo": 1463.9
   },
   "Portugal": {
-    "win_rate": 0.629,
-    "avg_scored": 2.196,
-    "avg_conceded": 0.69,
-    "elo": 1750.6
+    "win_rate": 0.353,
+    "avg_scored": 1.515,
+    "avg_conceded": 0.889,
+    "elo": 1569.7
   },
   "Qatar": {
-    "win_rate": 0.5,
-    "avg_scored": 1.74,
-    "avg_conceded": 0.908,
-    "elo": 1660.9
+    "win_rate": 0.368,
+    "avg_scored": 1.475,
+    "avg_conceded": 1.214,
+    "elo": 1542.4
   },
   "Saudi Arabia": {
-    "win_rate": 0.5,
-    "avg_scored": 1.537,
-    "avg_conceded": 0.885,
-    "elo": 1680.5
+    "win_rate": 0.347,
+    "avg_scored": 1.167,
+    "avg_conceded": 1.412,
+    "elo": 1559.1
   },
   "Scotland": {
-    "win_rate": 0.489,
-    "avg_scored": 1.608,
-    "avg_conceded": 1.067,
-    "elo": 1639.5
+    "win_rate": 0.375,
+    "avg_scored": 1.375,
+    "avg_conceded": 1.0,
+    "elo": 1507.5
   },
   "Senegal": {
-    "win_rate": 0.637,
-    "avg_scored": 1.691,
-    "avg_conceded": 0.475,
-    "elo": 1781.6
+    "win_rate": 0.549,
+    "avg_scored": 1.486,
+    "avg_conceded": 0.714,
+    "elo": 1685.9
   },
   "South Africa": {
-    "win_rate": 0.436,
-    "avg_scored": 1.414,
-    "avg_conceded": 0.657,
-    "elo": 1625.2
+    "win_rate": 0.346,
+    "avg_scored": 1.315,
+    "avg_conceded": 0.923,
+    "elo": 1536.0
   },
   "Spain": {
-    "win_rate": 0.655,
-    "avg_scored": 2.418,
-    "avg_conceded": 0.714,
-    "elo": 1846.6
+    "win_rate": 0.469,
+    "avg_scored": 1.95,
+    "avg_conceded": 1.25,
+    "elo": 1626.6
   },
   "Sweden": {
-    "win_rate": 0.454,
-    "avg_scored": 1.635,
-    "avg_conceded": 0.917,
-    "elo": 1597.4
+    "win_rate": 0.4,
+    "avg_scored": 1.3,
+    "avg_conceded": 1.0,
+    "elo": 1555.9
   },
   "Switzerland": {
-    "win_rate": 0.477,
-    "avg_scored": 1.862,
-    "avg_conceded": 0.851,
-    "elo": 1662.0
+    "win_rate": 0.37,
+    "avg_scored": 1.572,
+    "avg_conceded": 1.222,
+    "elo": 1547.3
   },
   "Tunisia": {
-    "win_rate": 0.545,
-    "avg_scored": 1.574,
-    "avg_conceded": 0.558,
-    "elo": 1646.0
+    "win_rate": 0.333,
+    "avg_scored": 1.139,
+    "avg_conceded": 0.9,
+    "elo": 1526.7
   },
   "T\u00fcrkiye": {
     "win_rate": 0.5,
@@ -258,15 +258,15 @@
     "elo": 1500
   },
   "Uruguay": {
-    "win_rate": 0.441,
-    "avg_scored": 1.343,
-    "avg_conceded": 0.681,
-    "elo": 1623.5
+    "win_rate": 0.412,
+    "avg_scored": 1.13,
+    "avg_conceded": 0.7,
+    "elo": 1561.1
   },
   "Uzbekistan": {
-    "win_rate": 0.583,
-    "avg_scored": 1.733,
-    "avg_conceded": 0.462,
-    "elo": 1760.8
+    "win_rate": 0.5,
+    "avg_scored": 1.696,
+    "avg_conceded": 0.429,
+    "elo": 1615.0
   }
 }

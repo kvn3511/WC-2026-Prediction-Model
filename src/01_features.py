@@ -9,6 +9,7 @@ results = pd.read_csv(os.path.join(BASE_DIR, "data", "raw", "results.csv"), pars
 results = results[results["date"] >= "2014-01-01"].copy()
 
 competitive = results[results["tournament"] != "Friendly"].copy()
+competitive = competitive[competitive["neutral"] == True].copy()
 competitive["home_win"] = (competitive["home_score"] > competitive["away_score"]).astype(int)
 
 # ── Elo ratings ──────────────────────────────────────────────────────────────
