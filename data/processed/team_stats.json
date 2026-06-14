@@ -12,10 +12,10 @@
     "elo": 1752.9
   },
   "Australia": {
-    "win_rate": 0.579,
-    "avg_scored": 1.999,
-    "avg_conceded": 0.686,
-    "elo": 1797.2
+    "win_rate": 0.589,
+    "avg_scored": 1.995,
+    "avg_conceded": 0.673,
+    "elo": 1825.1
   },
   "Austria": {
     "win_rate": 0.526,
@@ -33,13 +33,13 @@
     "win_rate": 0.337,
     "avg_scored": 1.444,
     "avg_conceded": 1.244,
-    "elo": 1516.9
+    "elo": 1517.0
   },
   "Brazil": {
     "win_rate": 0.569,
-    "avg_scored": 1.718,
-    "avg_conceded": 0.635,
-    "elo": 1668.8
+    "avg_scored": 1.71,
+    "avg_conceded": 0.641,
+    "elo": 1682.5
   },
   "Cabo Verde": {
     "win_rate": 0.5,
@@ -121,9 +121,9 @@
   },
   "Haiti": {
     "win_rate": 0.5,
-    "avg_scored": 2.151,
-    "avg_conceded": 1.184,
-    "elo": 1672.1
+    "avg_scored": 2.126,
+    "avg_conceded": 1.179,
+    "elo": 1672.2
   },
   "Iran": {
     "win_rate": 0.628,
@@ -157,9 +157,9 @@
   },
   "Morocco": {
     "win_rate": 0.667,
-    "avg_scored": 1.786,
+    "avg_scored": 1.781,
     "avg_conceded": 0.286,
-    "elo": 1837.5
+    "elo": 1823.4
   },
   "Netherlands": {
     "win_rate": 0.579,
@@ -189,7 +189,7 @@
     "win_rate": 0.25,
     "avg_scored": 0.932,
     "avg_conceded": 1.097,
-    "elo": 1568.5
+    "elo": 1568.3
   },
   "Portugal": {
     "win_rate": 0.629,
@@ -199,9 +199,9 @@
   },
   "Qatar": {
     "win_rate": 0.5,
-    "avg_scored": 1.748,
-    "avg_conceded": 0.906,
-    "elo": 1647.1
+    "avg_scored": 1.74,
+    "avg_conceded": 0.908,
+    "elo": 1660.9
   },
   "Saudi Arabia": {
     "win_rate": 0.5,
@@ -210,10 +210,10 @@
     "elo": 1680.5
   },
   "Scotland": {
-    "win_rate": 0.478,
-    "avg_scored": 1.613,
+    "win_rate": 0.489,
+    "avg_scored": 1.608,
     "avg_conceded": 1.067,
-    "elo": 1639.3
+    "elo": 1639.5
   },
   "Senegal": {
     "win_rate": 0.637,
@@ -241,9 +241,9 @@
   },
   "Switzerland": {
     "win_rate": 0.477,
-    "avg_scored": 1.866,
+    "avg_scored": 1.862,
     "avg_conceded": 0.851,
-    "elo": 1675.9
+    "elo": 1662.0
   },
   "Tunisia": {
     "win_rate": 0.545,
