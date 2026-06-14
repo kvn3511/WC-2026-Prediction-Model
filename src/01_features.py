@@ -19,7 +19,7 @@ def compute_elo(df, k=30, base=1500):
         h, a = row["home_team"], row["away_team"]
         elo.setdefault(h, base)
         elo.setdefault(a, base)
-        exp_h = 1 / (1 + 10 ** ((elo[a] - elo[h]) / 400))  # ✅ Bug 3 fixed
+        exp_h = 1 / (1 + 10 ** ((elo[a] - elo[h]) / 400))
         exp_a = 1 - exp_h
         if row["home_score"] > row["away_score"]:
             act_h, act_a = 1, 0
@@ -32,7 +32,7 @@ def compute_elo(df, k=30, base=1500):
     return elo
 
 # ── Win rates ────────────────────────────────────────────────────────────────
-def compute_win_rates(df):                                   # ✅ Bug 2 fixed
+def compute_win_rates(df):
     records = {}
     for _, row in df.iterrows():
         h, a = row["home_team"], row["away_team"]
@@ -59,7 +59,7 @@ competitive["away_elo"] = competitive["away_team"].map(elo_ratings).fillna(1500)
 competitive["elo_diff"] = competitive["home_elo"] - competitive["away_elo"]
 competitive["is_neutral"] = competitive["neutral"].astype(int)
 
-competitive["home_win_rate"] = competitive["home_team"].map(win_rates).fillna(0.5)  # ✅ Bug 4 fixed
+competitive["home_win_rate"] = competitive["home_team"].map(win_rates).fillna(0.5)
 competitive["away_win_rate"] = competitive["away_team"].map(win_rates).fillna(0.5)
 competitive["win_rate_diff"] = competitive["home_win_rate"] - competitive["away_win_rate"]
 
