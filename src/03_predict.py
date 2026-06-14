@@ -23,7 +23,7 @@ def predict_match(home_team, away_team, is_neutral=1):
     features = pd.DataFrame([{
         "home_elo":          home_elo,
         "away_elo":          away_elo,
-        "elo_diff":          home_elo - away_elo,        # ✅ new
+        "elo_diff":          home_elo - away_elo,
         "home_win_rate":     home_wr,
         "away_win_rate":     away_wr,
         "win_rate_diff":     home_wr - away_wr,
