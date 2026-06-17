@@ -121,7 +121,7 @@
     .bar-bottom { display: flex; justify-content: space-between; margin-top: 5px; }
 
     /* Stats */
-    .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 0.5px solid var(--border); }
+    .stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 0.5px solid var(--border); }
     .stat { text-align: center; background: #f9f9f7; border-radius: 8px; padding: 12px 8px; }
     .stat-val { font-size: 22px; font-weight: 600; }
     .stat-val.green { color: var(--green); }
@@ -207,6 +207,7 @@
       </div>
       <div class="bar-track">
         <div class="fill-a" id="barA" style="width:0%"></div>
+        <div class="fill-d" id="barD" style="width:0%"></div>
         <div class="fill-b" id="barB" style="width:0%"></div>
       </div>
       <div class="bar-bottom">
@@ -219,6 +220,10 @@
       <div class="stat">
         <div class="stat-val green" id="statWinA"></div>
         <div class="stat-lbl" id="statLabelA"></div>
+      </div>
+      <div class="stat">
+        <div class="stat-val muted" id="statDraw"></div>
+        <div class="stat-lbl">Draw</div>
       </div>
       <div class="stat">
         <div class="stat-val blue" id="statWinB"></div>
@@ -261,6 +266,7 @@ async function predict() {
   btnText.textContent = 'Predict outcome';
 
   const pA = data.home_win_prob;
+  const pD = data.draw_prob;
   const pB = data.away_win_prob;
 
   document.getElementById('matchupLabel').textContent = `${a} vs ${b}`;
@@ -268,18 +274,25 @@ async function predict() {
   document.getElementById('labelB').textContent = b;
   document.getElementById('pctA').textContent = pA + '%';
   document.getElementById('pctB').textContent = pB + '%';
+
   document.getElementById('barA').style.width = pA + '%';
+  document.getElementById('barD').style.width = pD + '%';
   document.getElementById('barB').style.width = pB + '%';
+
   document.getElementById('statWinA').textContent = pA + '%';
+  document.getElementById('statDraw').textContent = pD + '%';
   document.getElementById('statWinB').textContent = pB + '%';
   document.getElementById('statLabelA').textContent = a + ' win';
   document.getElementById('statLabelB').textContent = b + ' win';
 
   const diff = pA - pB;
   let icon, verdict;
-  if (Math.abs(diff) < 5) {
+  if (pD > pA && pD > pB) {
     icon = '⚖️';
-    verdict = `This is a very close match — the model sees roughly equal chances for both sides.`;
+    verdict = `This is a very tight matchup, with a <strong>Draw</strong> (${pD}%) being the most likely outcome in regulation.`;
+  } else if (Math.abs(diff) < 5) {
+    icon = '⚖️';
+    verdict = `This is a highly competitive match — the model sees roughly equal chances for both sides.`;
   } else if (diff > 0) {
     const fav = diff > 20 ? 'heavy' : 'slight';
     icon = '🟢';

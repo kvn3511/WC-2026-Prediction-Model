@@ -33,26 +33,22 @@ def predict():
     home_wr  = h.get("win_rate", 0.5)
     away_wr  = a.get("win_rate", 0.5)
 
-
     features = pd.DataFrame([{
-        "home_elo":          home_elo,
-        "away_elo":          away_elo,
-        "elo_diff":          home_elo - away_elo,
-        "home_win_rate":     home_wr,
-        "away_win_rate":     away_wr,
-        "win_rate_diff":     home_wr - away_wr,
-        "is_neutral":        1,
-        "home_avg_scored":   h.get("avg_scored", 1.5),
-        "away_avg_scored":   a.get("avg_scored", 1.5),
-        "home_avg_conceded": h.get("avg_conceded", 1.2),
+        "elo_diff": home_elo - away_elo,
+        "win_rate_diff": home_wr - away_wr,
+        "avg_scored": h.get("avg_scored", 1.5),
+        "avg_conceded": h.get("avg_conceded", 1.2),
+        "opp_avg_scored": a.get("avg_scored", 1.5),
+        "opp_avg_conceded": a.get("avg_conceded", 1.2),
     }])
 
     prob = model.predict_proba(features)[0]
     return jsonify({
         "home_team": home,
         "away_team": away,
-        "home_win_prob": round(float(prob[1]) * 100, 1),
-        "away_win_prob": round(float(prob[0]) * 100, 1),
+        "home_win_prob": round(float(prob[2]) * 100, 1),
+        "draw_prob": round(float(prob[1]) * 100, 1),
+        "away_win_prob": round(float(prob[0]) * 100, 1)
     })
 
 if __name__ == "__main__":
