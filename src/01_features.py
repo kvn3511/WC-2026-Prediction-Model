@@ -165,14 +165,14 @@ final_avg_conceded = {team: np.mean(goals[-10:]) if goals else 1.2 for team, goa
 
 world_cup_2026_teams = [
     "Algeria", "Argentina", "Australia", "Austria", "Belgium",
-    "Bosnia and Herzegovina", "Brazil", "Cabo Verde", "Colombia",
+    "Bosnia and Herzegovina", "Brazil", "Cabo Verde", "Canada", "Colombia",
     "Congo DR", "Côte d'Ivoire", "Croatia", "Curaçao", "Czechia",
     "Ecuador", "Egypt", "England", "France", "Germany", "Ghana",
     "Haiti", "Iran", "Iraq", "Japan", "Jordan", "Korea Republic",
     "Morocco", "Netherlands", "New Zealand", "Norway", "Panama",
     "Paraguay", "Portugal", "Qatar", "Saudi Arabia", "Scotland",
     "Senegal", "South Africa", "Spain", "Sweden", "Switzerland",
-    "Tunisia", "Türkiye", "Uruguay", "Uzbekistan"
+    "Tunisia", "Türkiye", "United States of America", "Uruguay", "Uzbekistan"
 ]
 
 team_stats = {}
