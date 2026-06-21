@@ -47,6 +47,12 @@
     "avg_conceded": 1.2,
     "elo": 1500
   },
+  "Canada": {
+    "win_rate": 0.474,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.1,
+    "elo": 1574.8
+  },
   "Colombia": {
     "win_rate": 0.531,
     "avg_scored": 1.7,
@@ -252,6 +258,12 @@
     "elo": 1537.3
   },
   "T\u00fcrkiye": {
+    "win_rate": 0.5,
+    "avg_scored": 1.5,
+    "avg_conceded": 1.2,
+    "elo": 1500
+  },
+  "United States of America": {
     "win_rate": 0.5,
     "avg_scored": 1.5,
     "avg_conceded": 1.2,
